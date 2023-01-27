@@ -1,0 +1,63 @@
+2023-01-27 18:55:36.687 +05:30 [INF] User profile is available. Using 'C:\Users\arun.sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-27 18:55:36.953 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-27 18:55:36.994 +05:30 [INF] Hosting environment: Development
+2023-01-27 18:55:36.997 +05:30 [INF] Content root path: C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3
+2023-01-27 18:55:37.057 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/ - -
+2023-01-27 18:55:37.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/ - - - 404 - - 51.2761ms
+2023-01-27 18:55:37.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/favicon.ico - -
+2023-01-27 18:55:37.447 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\wwwroot\favicon.ico'
+2023-01-27 18:55:37.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/favicon.ico - - - 200 5430 image/x-icon 39.4934ms
+2023-01-27 18:56:12.368 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/test - -
+2023-01-27 18:56:12.379 +05:30 [INF] Executing endpoint 'WebApplication3.Controllers.TestController.Get (WebApplication3)'
+2023-01-27 18:56:12.435 +05:30 [INF] Route matched with {action = "Get", controller = "Test", page = ""}. Executing controller action with signature System.String Get() on controller WebApplication3.Controllers.TestController (WebApplication3).
+2023-01-27 18:56:15.837 +05:30 [INF] Parameter 1: 5
+2023-01-27 18:56:15.840 +05:30 [INF] Parameter 2: 0
+2023-01-27 18:56:15.875 +05:30 [WRN] You cannot divide by zero.
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at WebApplication3.Services.MathService.Divide(Decimal a, Decimal b) in C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\Services\mathservice.cs:line 25
+2023-01-27 18:56:16.759 +05:30 [WRN] An exception occured while dividing two numbers
+System.DivideByZeroException: Attempted to divide by zero.
+   at WebApplication3.Services.MathService.Divide(Decimal a, Decimal b) in C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\Services\mathservice.cs:line 30
+   at WebApplication3.Controllers.TestController.Get() in C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\Controllers\TestController.cs:line 26
+2023-01-27 18:56:16.767 +05:30 [INF] Executing ObjectResult, writing value of type 'null'.
+2023-01-27 18:56:16.777 +05:30 [INF] Executed action WebApplication3.Controllers.TestController.Get (WebApplication3) in 4333.4779ms
+2023-01-27 18:56:16.780 +05:30 [INF] Executed endpoint 'WebApplication3.Controllers.TestController.Get (WebApplication3)'
+2023-01-27 18:56:16.783 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/test - - - 204 0 - 4415.3789ms
+2023-01-27 18:57:28.507 +05:30 [INF] User profile is available. Using 'C:\Users\arun.sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-27 18:57:28.760 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-27 18:57:28.768 +05:30 [INF] Hosting environment: Development
+2023-01-27 18:57:28.770 +05:30 [INF] Content root path: C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3
+2023-01-27 18:57:28.808 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/ - -
+2023-01-27 18:57:28.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/ - - - 404 - - 47.8241ms
+2023-01-27 18:57:29.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/favicon.ico - -
+2023-01-27 18:57:29.170 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\wwwroot\favicon.ico'
+2023-01-27 18:57:29.173 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/favicon.ico - - - 200 5430 image/x-icon 36.4956ms
+2023-01-27 18:57:51.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/test - -
+2023-01-27 18:57:51.511 +05:30 [INF] Executing endpoint 'WebApplication3.Controllers.TestController.Get (WebApplication3)'
+2023-01-27 18:57:51.560 +05:30 [INF] Route matched with {action = "Get", controller = "Test", page = ""}. Executing controller action with signature System.String Get() on controller WebApplication3.Controllers.TestController (WebApplication3).
+2023-01-27 18:57:56.423 +05:30 [INF] Parameter 1: 5
+2023-01-27 18:57:56.425 +05:30 [INF] Parameter 2: 0
+2023-01-27 18:57:56.460 +05:30 [WRN] You cannot divide by zero.
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at WebApplication3.Services.MathService.Divide(Decimal a, Decimal b) in C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\Services\mathservice.cs:line 25
+2023-01-27 18:57:56.542 +05:30 [WRN] Test Log: An exception occured while dividing two numbers
+System.DivideByZeroException: Attempted to divide by zero.
+   at WebApplication3.Services.MathService.Divide(Decimal a, Decimal b) in C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\Services\mathservice.cs:line 30
+   at WebApplication3.Controllers.TestController.Get() in C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\Controllers\TestController.cs:line 26
+2023-01-27 18:57:56.547 +05:30 [INF] Executing ObjectResult, writing value of type 'null'.
+2023-01-27 18:57:56.554 +05:30 [INF] Executed action WebApplication3.Controllers.TestController.Get (WebApplication3) in 4987.7975ms
+2023-01-27 18:57:56.557 +05:30 [INF] Executed endpoint 'WebApplication3.Controllers.TestController.Get (WebApplication3)'
+2023-01-27 18:57:56.560 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/test - - - 204 0 - 5056.2099ms
+2023-01-27 19:01:47.402 +05:30 [INF] User profile is available. Using 'C:\Users\arun.sunny\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-27 19:01:47.663 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-27 19:01:47.666 +05:30 [INF] Hosting environment: Development
+2023-01-27 19:01:47.677 +05:30 [INF] Content root path: C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3
+2023-01-27 19:01:47.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/ - -
+2023-01-27 19:01:47.760 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/ - - - 404 - - 50.0361ms
+2023-01-27 19:01:47.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44327/favicon.ico - -
+2023-01-27 19:01:47.833 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\arun.sunny\source\repos\WebApplication3\WebApplication3\wwwroot\favicon.ico'
+2023-01-27 19:01:47.835 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44327/favicon.ico - - - 200 5430 image/x-icon 38.7045ms
